@@ -36,6 +36,7 @@ ul {
   margin-top: 0;
   padding-left: 15px;
   padding-right: 15px;
+  /* padding-bottom: 94px; */
 }
 header {
   border-bottom: 1px solid #cccccc;
@@ -225,6 +226,9 @@ span {
   display: flex;
   justify-content: space-between;
 }
+.image-work {
+  padding-bottom: 94px;
+}
 .image:not(:last-child) {
   flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
@@ -250,17 +254,20 @@ span {
 .our-team {
   background-color: #f5f4fa;
 }
-.img {
-  margin-bottom: 30px;
-}
+
 .team-link {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
+
   width: 270px;
 }
+.staff {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .name {
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -326,7 +333,7 @@ span {
 .buttons {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .buttons li:not(:last-child) {
   margin-right: 8px;
@@ -334,7 +341,7 @@ span {
 .all-button {
   border: none;
   border-radius: 4px;
-  padding: 6px 32px;
+  padding: 6px 22px;
   color: var(--title-text-color);
   font-family: inherit;
   cursor: pointer;
